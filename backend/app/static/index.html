@@ -6,6 +6,13 @@
 <meta name="theme-color" content="#080b15">
 <title>Orbit - adaptive learning navigator</title>
 <meta name="description" content="Orbit turns a learning goal into a prerequisite-locked route of courses, projects and checkpoints, fitted to the hours you have - and explains every recommendation it makes.">
+<!-- The brand mark as an inline SVG: the violet orbit, its cyan ring and the
+     core at the centre, the same three shapes .brand-mark draws in CSS. Kept
+     in the document rather than as a served file so the UI stays one
+     self-contained page, and so the tab icon does not depend on a second
+     request that the local server and the deployment would each have to
+     route. Declaring it also stops the browser asking for /favicon.ico. -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23080b15'/%3E%3Cellipse cx='16' cy='16' rx='14.2' ry='4.9' fill='none' stroke='%2351ddff' stroke-width='2' transform='rotate(-27 16 16)'/%3E%3Ccircle cx='16' cy='16' r='8.4' fill='none' stroke='%23a97cff' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='3.4' fill='%23a97cff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
