@@ -1,0 +1,9 @@
+.env
+.env.*
+.gemini_cache.json
+.git/
+__pycache__/
+*.py[cod]
+backend/data/
+backend/tests/
+backend/scripts/

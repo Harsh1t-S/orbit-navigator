@@ -1,0 +1,13 @@
+# Runtime dependencies are listed directly because Vercel's Python builder
+# does not resolve nested ``-r`` requirement files.
+fastapi>=0.115
+uvicorn[standard]>=0.34
+pydantic>=2.9
+pydantic-settings>=2.6
+python-dotenv>=1.0
+numpy>=1.26
+scikit-learn>=1.4
+rank-bm25>=0.2.2
+networkx>=3.2
+google-genai>=1.0
+tavily-python>=0.7
