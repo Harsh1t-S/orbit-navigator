@@ -1,0 +1,18 @@
+# Python 3.11+ (tested on 3.11 and 3.14)
+fastapi>=0.115
+uvicorn[standard]>=0.34
+pydantic>=2.9
+pydantic-settings>=2.6
+python-dotenv>=1.0
+numpy>=1.26
+scikit-learn>=1.4
+rank-bm25>=0.2.2
+networkx>=3.2
+google-genai>=1.0
+tavily-python>=0.7
+
+# Optional - better retrieval quality on paraphrased queries. Everything runs
+# without it, retrieval.py falls back to TF-IDF and says so in the logs. Left
+# out of the default install because it drags in ~400MB of torch and judges
+# should not have to wait for that to see the app work.
+# sentence-transformers>=3.3

@@ -1,0 +1,36 @@
+# Secrets and local Vercel state
+.env
+.env.*
+# ...but the template that documents which names to set is part of the project.
+!.env.example
+.vercel/
+*.key
+*.local.md
+*.local.txt
+
+# Local working notes, not part of the project
+HANDOFF.md
+
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+.gemini_cache.json
+
+# Derived local data
+backend/data/cache/
+backend/data/*.index
+backend/data/courses.enriched.jsonl
+backend/data/embeddings.npy
+*.db
+*.sqlite3
+
+node_modules/
+.next/
+dist/
+build/
+.DS_Store
